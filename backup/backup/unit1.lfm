@@ -1,8 +1,115 @@
 object Form1: TForm1
   Left = 251
-  Height = 240
+  Height = 267
   Top = 127
-  Width = 320
+  Width = 361
   Caption = 'Form1'
+  ClientHeight = 267
+  ClientWidth = 361
   LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 31
+    Height = 15
+    Top = 9
+    Width = 80
+    Caption = 'Введите число'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 31
+    Height = 23
+    Top = 32
+    Width = 80
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 56
+    Height = 15
+    Top = 64
+    Width = 164
+    Caption = 'Выберите кнопку для расчета'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 45
+    Height = 15
+    Top = 212
+    Width = 53
+    Caption = 'Результат'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 45
+    Height = 23
+    Top = 232
+    Width = 80
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 192
+    Height = 30
+    Top = 224
+    Width = 75
+    Caption = 'о авторе'
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object BitBtn2: TBitBtn
+    Left = 272
+    Height = 30
+    Top = 225
+    Width = 75
+    Caption = 'exit'
+    OnClick = BitBtn2Click
+    TabOrder = 3
+  end
+  object CheckBox1: TCheckBox
+    Left = 45
+    Height = 19
+    Top = 89
+    Width = 276
+    Caption = 'Потребление бензина автомобилем на 100 км'
+    TabOrder = 4
+  end
+  object CheckBox2: TCheckBox
+    Left = 45
+    Height = 19
+    Top = 120
+    Width = 166
+    Caption = 'Расстояние до пункта в км'
+    TabOrder = 5
+  end
+  object CheckBox3: TCheckBox
+    Left = 45
+    Height = 19
+    Top = 152
+    Width = 61
+    Caption = 'Пробег'
+    TabOrder = 6
+  end
+  object CheckBox4: TCheckBox
+    Left = 45
+    Height = 19
+    Top = 184
+    Width = 173
+    Caption = 'Цена одного литра бензина'
+    TabOrder = 7
+  end
+  object Button1: TButton
+    Left = 176
+    Height = 25
+    Top = 25
+    Width = 75
+    Caption = 'Calculate'
+    TabOrder = 8
+  end
+  object Button2: TButton
+    Left = 252
+    Height = 25
+    Top = 147
+    Width = 75
+    Caption = 'Clear'
+    OnClick = Button2Click
+    TabOrder = 9
+  end
 end

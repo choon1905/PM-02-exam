@@ -1,0 +1,34 @@
+object Form2: TForm2
+  Left = 251
+  Height = 240
+  Top = 127
+  Width = 320
+  Caption = 'Form2'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 104
+    Height = 15
+    Top = 17
+    Width = 98
+    Caption = 'Работу выполнил'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 104
+    Height = 15
+    Top = 40
+    Width = 138
+    Caption = 'Студент группы ИР 19-30'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 104
+    Height = 15
+    Top = 64
+    Width = 89
+    Caption = 'Агабабян Арсен'
+    ParentColor = False
+  end
+end
